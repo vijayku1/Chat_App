@@ -76,6 +76,7 @@ const Login = () => {
         <Input
           value={email}
           type="email"
+          bg="gray.300"
           placeholder="Enter Your Email Address"
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -87,6 +88,7 @@ const Login = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type={show ? "text" : "password"}
+            bg="gray.300"
             placeholder="Enter password"
           />
           <InputRightElement width="4.5rem">

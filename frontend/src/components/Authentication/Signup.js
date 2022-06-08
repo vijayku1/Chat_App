@@ -135,6 +135,7 @@ const Signup = () => {
         <FormLabel>Name</FormLabel>
         <Input
           placeholder="Enter Your Name"
+          bg="gray.300"
           onChange={(e) => setName(e.target.value)}
         />
       </FormControl>
@@ -142,6 +143,7 @@ const Signup = () => {
         <FormLabel>Email Address</FormLabel>
         <Input
           type="email"
+          bg="gray.300"
           placeholder="Enter Your Email Address"
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -151,6 +153,7 @@ const Signup = () => {
         <InputGroup size="md">
           <Input
             type={show ? "text" : "password"}
+            bg="gray.300"
             placeholder="Enter Password"
             onChange={(e) => setPassword(e.target.value)}
           />
@@ -166,6 +169,7 @@ const Signup = () => {
         <InputGroup size="md">
           <Input
             type={show ? "text" : "password"}
+            bg="gray.300"
             placeholder="Confirm password"
             onChange={(e) => setConfirmpassword(e.target.value)}
           />
@@ -181,6 +185,7 @@ const Signup = () => {
         <Input
           type="file"
           p={1.5}
+          bg="gray.300"
           accept="image/*"
           onChange={(e) => postDetails(e.target.files[0])}
         />
