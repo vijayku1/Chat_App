@@ -7,6 +7,28 @@ Client: React JS
 Server: Node JS, Express JS
 Database: Mongo DB
 
+Run Locally:
+
+Clone the project   
+  git clone : https://github.com/vijayku1/Chat_App
+  
+Go to the project directory -
+  cd Mern_chat_app
+Install dependencies -
+
+  npm install
+  cd frontend/
+  npm install
+  
+Start the server -
+  npm run start
+  
+Start the Client -
+  //open now terminal
+  cd frontend
+  npm start
+
+
 There are following some features which I have implemented  :
 
 - User can signup through their credentials i.e, Name ,email,password,profile pic.
@@ -29,23 +51,3 @@ There are following some features which I have implemented  :
 
 
 
-Run Locally:
-
-Clone the project   
-  git clone : https://github.com/vijayku1/Chat_App
-  
-Go to the project directory -
-  cd Mern_chat_app
-Install dependencies -
-
-  npm install
-  cd frontend/
-  npm install
-  
-Start the server -
-  npm run start
-  
-Start the Client -
-  //open now terminal
-  cd frontend
-  npm start
